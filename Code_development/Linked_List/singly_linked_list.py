@@ -122,6 +122,8 @@ class LinkedList:
                 self.head=current.getNext()
         elif self.length==0:
             raise ValueError('List is empty')
+    def deleteList(self):
+        self.head=None
 
 
 
